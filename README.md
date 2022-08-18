@@ -22,7 +22,7 @@ way that you want.
 This repository is where HTML5-Boilerplate is authored. Some of the tools,
 files and processes that you see here are solely for the _production_ of
 HTML5 Boilerplate and are not _part_ of HTML5 Boilerplate. For one example, the
-[gulpfile.babel.js](https://github.com/h5bp/html5-boilerplate/blob/main/gulpfile.babel.js)
+[gulpfile.mjs](https://github.com/h5bp/html5-boilerplate/blob/main/gulpfile.mjs)
 script is used to _build_ the project. It's not part of the project itself.
 
 The project we publish is represented by the contents of the `/dist/`
@@ -106,7 +106,7 @@ Choose one of the following options:
 
 HTML5-Boilerplate supports the latest, stable releases of all major browsers. 
 
-You can find our range of supported browsers in our [package.json](https://github.com/h5bp/html5-boilerplate/blob/main/package.json#L56-L62) At present we extend the [browserlist default](https://github.com/browserslist/browserslist#full-list) with the addition of IE 11 and [FireFox ESR.](https://www.mozilla.org/en-US/firefox/enterprise/)
+You can find our range of supported browsers in our [package.json](https://github.com/h5bp/html5-boilerplate/blob/main/package.json#L55-L59) At present we alter the [browserlist default](https://github.com/browserslist/browserslist#full-list) by dropping IE 11.
 
 ```json
   "browserslist": [
@@ -114,11 +114,11 @@ You can find our range of supported browsers in our [package.json](https://githu
     "last 2 versions",
     "Firefox ESR",
     "not dead",
-    "IE 11"
+    "not IE 11"
   ],
 ```
 
-[That configuration translates to this full list of browsers.](https://browserslist.dev/?q=ID4gMC41JSwgICAgIGxhc3QgMiB2ZXJzaW9ucywgICAgIEZpcmVmb3ggRVNSLCAgICBub3QgZGVhZCwgICAgIElFIDEx)
+[That configuration translates to this full list of browsers.](https://browserslist.dev/?q=ID4gMC41JSwgICAgIGxhc3QgMiB2ZXJzaW9ucywgICAgIEZpcmVmb3ggRVNSLCAgICBub3QgZGVhZCwgICAgIG5vdCBJRSAxMQ)
 
 ## Documentation
 
